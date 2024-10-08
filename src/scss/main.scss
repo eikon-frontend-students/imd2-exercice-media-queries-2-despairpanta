@@ -346,3 +346,97 @@ footer {
   align-items: center;
   gap: 20px;
 }
+
+// media queries
+
+///extra small to extra large///
+
+@media (max-width: 1200px) {
+  .navigation {
+    display: none;
+  }
+
+  // spectacle
+
+  // citation
+  .quote-content {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .quote-source {
+    line-height: 15px;
+  }
+  // articles
+  .article-title {
+    font-size: 15px;
+  }
+}
+
+///extra large to idk///
+
+@media (min-width: 1200px) {
+  header {
+    padding: 42px 0;
+  }
+  .burger {
+    display: none;
+  }
+  .branding {
+    text-align: left;
+  }
+  .branding-title {
+    font-size: 50px;
+  }
+
+  // spectacle
+  .show-title {
+    font-size: 34px;
+  }
+  .show-date,
+  .show-origin {
+    font-size: 18px;
+  }
+  // citation
+  .quote-content {
+    font-size: 34px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .quote-source {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  // section title
+  .section-title {
+    font-size: 50px;
+  }
+
+  // articles
+  .article-title {
+    font-size: 18px;
+  }
+
+  // opportunité
+  .opportunities-title {
+    font-size: 50px;
+  }
+  .opportunity {
+    font-size: 34px;
+  }
+
+  // footer
+  footer {
+    padding-bottom: 90px;
+  }
+  .footer-title {
+    font-size: 100px;
+  }
+  .footer-contact {
+    text-align: left;
+  }
+  .footer-social {
+    justify-content: flex-end;
+  }
+}
